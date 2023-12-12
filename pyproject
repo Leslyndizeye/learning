@@ -1,0 +1,3 @@
+age = 29
+sentence = "My age is"
+print(senetence, age)
