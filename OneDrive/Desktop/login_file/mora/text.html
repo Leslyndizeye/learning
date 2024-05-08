@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            margin: 10px auto;
+            display: block;
+            border : 1px solid black;
+        }
+        input[type="password"]{
+           margin-top: 100px;
+            
+        }
+        input[type="username"]{
+           
+            
+        }
+        .pan {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="pan">
+        <div class ="password">
+        </div>
+    
+    <div class ="username">
+        </div>
+
+    </div>
+    
+    
+    
+</body>
+<script>
+ var text = document.createElement("input")
+ text.setAttribute("type","password")
+ document.body.insertBefore(text,document.querySelector(".pan"))
+ 
+ var password = document.createElement("input")
+ password.setAttribute("type","username")
+ document.body.insertBefore(password,document.querySelector(".pan"))
+  var lesly = document.createElement("input")
+    lesly.setAttribute("type","checkbox")
+    document.querySelector(".pan").appendChild(lesly)
+    
+ var pan = document.createElement("input")
+    pan.setAttribute("type","radio")
+    document.querySelector(".pan").appendChild(pan)
+    
+    
+ 
+ 
+
+
+  
+
+
+</script>
+</html>
