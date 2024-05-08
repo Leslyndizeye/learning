@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.color-meanings.com/wp-content/uploads/Blue-and_purple_galaxy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    gap: 20px;
+    width: 250px;;
+    font-weight: bold;
+    padding: 12px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    margin: 180px auto;
+    border-radius: 10px;
+    
+    
+    background-color:rgba(137, 43, 226, 0.23);
+
+}
+.class{
+    display: flex;
+}
+.class span{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+    
+}
